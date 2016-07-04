@@ -12,6 +12,7 @@
 		8153CF631D2922790030563F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8153CF621D2922790030563F /* ViewController.m */; };
 		8153CF681D2922790030563F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8153CF671D2922790030563F /* Assets.xcassets */; };
 		8153CF6B1D2922790030563F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8153CF691D2922790030563F /* LaunchScreen.storyboard */; };
+		81CD239E1D2A271000197A45 /* HHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD239D1D2A271000197A45 /* HHNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		8153CF671D2922790030563F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8153CF6A1D2922790030563F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8153CF6C1D2922790030563F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CD239C1D2A271000197A45 /* HHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
+		81CD239D1D2A271000197A45 /* HHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				8153CF5F1D2922790030563F /* AppDelegate.m */,
 				8153CF611D2922790030563F /* ViewController.h */,
 				8153CF621D2922790030563F /* ViewController.m */,
+				81CD239C1D2A271000197A45 /* HHNavigationController.h */,
+				81CD239D1D2A271000197A45 /* HHNavigationController.m */,
 				8153CF671D2922790030563F /* Assets.xcassets */,
 				8153CF691D2922790030563F /* LaunchScreen.storyboard */,
 				8153CF6C1D2922790030563F /* Info.plist */,
@@ -149,6 +154,7 @@
 				8153CF631D2922790030563F /* ViewController.m in Sources */,
 				8153CF601D2922790030563F /* AppDelegate.m in Sources */,
 				8153CF5D1D2922790030563F /* main.m in Sources */,
+				81CD239E1D2A271000197A45 /* HHNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +293,7 @@
 				8153CF711D2922790030563F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

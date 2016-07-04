@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "HHNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +20,21 @@
     // Override point for customization after application launch.
     ViewController *vc = [[ViewController alloc]init];
     vc.title = @"1";
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    HHNavigationController *nav = [[HHNavigationController alloc]initWithRootViewController:vc];
+    
+    /*
+     修复方法一
+     最简单的禁用手势
+     */
+    //nav.interactivePopGestureRecognizer.enabled = NO;
+    
+    
+    /*
+     修复方法二
+     协议签订，放在这里是为了方便大家看到。正常都是放在HHNavigationController的didLoadView方法里面的。
+     在这里注释掉了，为了是重现bug，如果想要试验修复bug，将下面那行代码取消注释，或者到HHNavigationController的didLoadView取消self.delegate = self;注释
+     */
+    //nav.delegate = (id)nav;
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.rootViewController = nav;
     _window.backgroundColor = [UIColor whiteColor];
